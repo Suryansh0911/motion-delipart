@@ -1,2 +1,5 @@
-import Workspace from '@/components/motion/workspace';
-export default function Home(){return <Workspace/>;}
+import { redirect } from "next/navigation";
+
+export default function Home() {
+    redirect("/partner");
+}
